@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "apex_sound_effects:damage.ttf",
+      "size": 13,
+      "oversample": 2,
+      "shift": [
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '6.0.54' }
+
+group = mod_group_id
+version = mod_version
+base { archivesName = "${mod_id}-forge-1.20.1" }
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+sourceSets.main.java.srcDir '../common/src/main/java'
+sourceSets.main.resources.srcDir '../common/src/main/resources'
+sourceSets { gameTest { compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath; runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath } }
+sourceSets { serverTest {
+    java.srcDir 'src/gameTest/java'
+    java.include '**/ServerProbe.java'
+    compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+} }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+repositories { mavenCentral(); maven { url = 'https://api.modrinth.com/maven' } }
+repositories { flatDir { dirs 'work/compat' } }
+def resourceProps = [mod_id: mod_id, mod_name: mod_name, mod_version: mod_version, mod_authors: mod_authors, mod_license: mod_license, mod_description: mod_description]
+processResources {
+    inputs.properties resourceProps
+    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml', 'fabric.mod.json']) { expand resourceProps }
+}
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            if(project.hasProperty('tacz')) {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+            }
+            mods { "${mod_id}" { source sourceSets.main } }
+        }
+        client {}
+        server {
+            workingDirectory project.file('run-server'); args '--nogui'
+            if(project.hasProperty('serverprobe')) mods { apex_sound_effects { source sourceSets.serverTest } }
+        }
+    }
+}
+dependencies { minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"; if (project.hasProperty('profile')) runtimeOnly fg.deobf("maven.modrinth:spark:${spark_version}") }
+dependencies {
+    compileOnly fg.deobf('local:tacz:1.1.8-hotfix')
+    if (project.hasProperty('tacz')) runtimeOnly fg.deobf('local:tacz:1.1.8-hotfix')
+}
+jar { finalizedBy 'reobfJar' }
+tasks.matching { it.name == 'runServer' }.configureEach { standardInput = System.in }
+
+
+// mcscene-v2: development only; never part of the published main JAR.
+minecraft { runs { client { if (project.hasProperty('mcscene')) { workingDirectory project.file('run/mcscene-client'); args '--width', '1280', '--height', '720'; mods { apex_sound_effects { source sourceSets.gameTest } } } } } }
+
+tasks.withType(ProcessResources).configureEach { filteringCharset = "UTF-8" }
+
+// 代码与素材许可分开打包。 / Package code and asset terms separately.
+tasks.named('jar', Jar) {
+    from('../LICENSE')
+    from('../LICENSE-ASSETS.md')
+}

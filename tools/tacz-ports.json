@@ -1,0 +1,58 @@
+{
+  "checked": "2026-10-07",
+  "dependencies": [
+    {
+      "versionId": "62q6mB5Q",
+      "version": "1.1.8-hotfix-r7",
+      "purpose": "TaCZ port",
+      "path": "neoforge-1.21.1/work/compat/tacz-port.jar",
+      "url": "https://cdn.modrinth.com/data/OypNE65K/versions/62q6mB5Q/tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar",
+      "sha512": "7700ed99a080729c3aa21f9619e018fbe9e2303cfbcaa463175ee5170553a000b692bc4cfa2e8ce0778747eed34dcc0197fb5e4344bb258cff1ba90adc842642",
+      "projectId": "OypNE65K",
+      "license": "GPL-3.0-only",
+      "jarLicense": "GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+      "versionId": "3ShZi2cZ",
+      "version": "1.20.1-0.7.1-forge1.1.8-hotfix2",
+      "purpose": "TaCZ port",
+      "path": "fabric-1.20.1/work/compat/tacz-port.jar",
+      "url": "https://cdn.modrinth.com/data/1j76DVHU/versions/3ShZi2cZ/TACZ-Refabricated-1.20.1-0.7.1-forge1.1.8-hotfix2.jar",
+      "sha512": "e28303c334bd357c4168b7197675499c0c7d01a5c55bcce0915a5f622ecf9ed910ebb9a820e702153287a4f6d65b3c37b1990fcf65ffcce09775904be384d840",
+      "projectId": "1j76DVHU",
+      "license": "GPL-3.0-only",
+      "jarLicense": "GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+      "versionId": "HvR3IdRE",
+      "version": "v8.0.3-1.20.1-Fabric",
+      "purpose": "TaCZ runtime prerequisite",
+      "path": "fabric-1.20.1/work/compat/forge-config-api-port.jar",
+      "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/HvR3IdRE/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+      "sha512": "15144d6d7b74dfbe2eede6e3b0aa0c841670be1bd6121608bc28f3b1e46846ccd36b506060a081c988da96cf46fce8bf2e55601e3934b9a52d22dc2fa6cbfd32",
+      "projectId": "ohNO6lps",
+      "license": "MPL-2.0"
+    },
+    {
+      "versionId": "veM4XOhW",
+      "version": "1.21.1-0.7.1-forge1.1.8-hotfix2",
+      "purpose": "TaCZ port",
+      "path": "fabric-1.21.1/work/compat/tacz-port.jar",
+      "url": "https://cdn.modrinth.com/data/1j76DVHU/versions/veM4XOhW/TACZ-Refabricated-1.21.1-0.7.1-forge1.1.8-hotfix2.jar",
+      "sha512": "f3ef350f67cd251af59c6b27e4ca3349f8840d763e13b6f2662dea868428fa9ba17b29c2e8e2d56f991055e41b04ad61b51bc63b968331a03f37baf5a63278fd",
+      "projectId": "1j76DVHU",
+      "license": "GPL-3.0-only",
+      "jarLicense": "GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+      "versionId": "N5qzq0XV",
+      "version": "v21.1.6-1.21.1-Fabric",
+      "purpose": "TaCZ runtime prerequisite",
+      "path": "fabric-1.21.1/work/compat/forge-config-api-port.jar",
+      "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "sha512": "cd9296e78ba969f7aed6e3692aa25eb61c102c79c55ca5f9592576bacaa26feab5d5d48fa30cf07ca852e0f1d42afc4d4558feff69a67b225183d2bc15898cf9",
+      "projectId": "ohNO6lps",
+      "license": "MPL-2.0"
+    }
+  ]
+}

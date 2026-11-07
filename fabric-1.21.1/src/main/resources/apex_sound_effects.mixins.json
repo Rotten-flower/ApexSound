@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.flower.apex_sound_effects.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "client": [
+    "client.SoundOptionsScreenMixin",
+    "client.TaczSoundPlaybackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

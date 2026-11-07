@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_authors}"
+  ],
+  "license": "${mod_license}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.flower.apex_sound_effects.ApexSound"
+    ],
+    "client": [
+      "dev.flower.apex_sound_effects.ClientFeedback"
+    ]
+  },
+  "mixins": [
+    "apex_sound_effects.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "tacz": "*"
+  },
+  "icon": "assets/apex_sound_effects/icon.png"
+}

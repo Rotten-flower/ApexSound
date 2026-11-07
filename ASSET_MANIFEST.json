@@ -1,0 +1,322 @@
+[
+  {
+    "file": "sounds/flesh_hit.ogg",
+    "url": "https://raw.githubusercontent.com/AlexBoi301/Apex_Hitmarker/6aaf4152a301a625be2d35e2a6f99fe472b43329/sound/apexlegends_hitmarker/flesh_bulletimpact_1p_vs_3p.ogg",
+    "repository": "AlexBoi301/Apex_Hitmarker",
+    "commit": "6aaf4152a301a625be2d35e2a6f99fe472b43329",
+    "bytes": 20062,
+    "sha256": "44252f9f5c8b72c52a90c8107d38eba60e5e062d4ea77862d3d7839a5aeafda7"
+  },
+  {
+    "file": "sounds/shield_break_1.ogg",
+    "url": "https://raw.githubusercontent.com/zxy19/battery_shield/9d6c34a55e512595be476dab3803e25af2a2013b/src/main/resources/assets/battery_shield/sounds/shield_break_1.ogg",
+    "repository": "zxy19/battery_shield",
+    "commit": "9d6c34a55e512595be476dab3803e25af2a2013b",
+    "bytes": 41405,
+    "sha256": "899344b1322403d30fe83c060556eae40006ca47d2586f0b8b5b9897f18dd326"
+  },
+  {
+    "file": "sounds/shield_break_2.ogg",
+    "url": "https://raw.githubusercontent.com/zxy19/battery_shield/9d6c34a55e512595be476dab3803e25af2a2013b/src/main/resources/assets/battery_shield/sounds/shield_break_2.ogg",
+    "repository": "zxy19/battery_shield",
+    "commit": "9d6c34a55e512595be476dab3803e25af2a2013b",
+    "bytes": 43684,
+    "sha256": "a314c30ec7e0b0ab143b37bf216b246f40d44285b238d076bc569c6acd46bd47"
+  },
+  {
+    "file": "sounds/shield_break_3.ogg",
+    "url": "https://raw.githubusercontent.com/zxy19/battery_shield/9d6c34a55e512595be476dab3803e25af2a2013b/src/main/resources/assets/battery_shield/sounds/shield_break_3.ogg",
+    "repository": "zxy19/battery_shield",
+    "commit": "9d6c34a55e512595be476dab3803e25af2a2013b",
+    "bytes": 43672,
+    "sha256": "a242be5b4322a174a61c08a341610f614337e70d602718daa38f385d09fd21fc"
+  },
+  {
+    "file": "sounds/shield_break_4.ogg",
+    "url": "https://raw.githubusercontent.com/zxy19/battery_shield/9d6c34a55e512595be476dab3803e25af2a2013b/src/main/resources/assets/battery_shield/sounds/shield_break_4.ogg",
+    "repository": "zxy19/battery_shield",
+    "commit": "9d6c34a55e512595be476dab3803e25af2a2013b",
+    "bytes": 38047,
+    "sha256": "4ea8b955a4e34e2dbd93f72c3530312d151ef596f43162a2cb0d163de2dd12cb"
+  },
+  {
+    "file": "font/damage.ttf",
+    "url": "https://api.github.com/repos/google/fonts/git/blobs/9df66576492bee4bd0559066825472808fa98adc",
+    "repository": "google/fonts",
+    "git_blob": "9df66576492bee4bd0559066825472808fa98adc",
+    "license": "SIL Open Font License 1.1",
+    "bytes": 109428,
+    "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+  },
+  {
+    "file": "sounds/armor_hit_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/armor_hit_1.ogg",
+    "source_sha256": "186098f9dab4ce7fcd1b21bc6a7df753c4cb55c07d89afbe1d1dbb8be706e448",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 56353,
+    "sha256": "b417b97cd3f9d79b9269777782020926f5a9bb61cb9d3e19087c43c884594653"
+  },
+  {
+    "file": "sounds/armor_hit_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/armor_hit_2.ogg",
+    "source_sha256": "37d4417f7e7c9a6f6a43b4dfb70d5d16ce149afcc1bfa5f67336f6d783825be2",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 36976,
+    "sha256": "6018cc473f8eb46a3840465f9dde7802dd392f745e70506207b31b6eac37e2bc"
+  },
+  {
+    "file": "sounds/arrow_armor_hit_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/arrow_armor_hit_1.ogg",
+    "source_sha256": "5248610d3641c320de36c45079b2b780aa9e77a36b2f2d9b781ac9e6b3647d2b",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 50170,
+    "sha256": "6178c649023a19845f3b993d40eda40809ed8fbb46c43c1d1d6a0357ba27d8a5"
+  },
+  {
+    "file": "sounds/arrow_armor_hit_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/arrow_armor_hit_2.ogg",
+    "source_sha256": "843224a9eab5722f9b51364cb16b7905edf1e3d8a18a8a0cfed520de960a4a0c",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 54097,
+    "sha256": "0e79f807d664d0d588fec7f3453e7f886f07e650bb7ff21c3685f659df3ab6e5"
+  },
+  {
+    "file": "sounds/arrow_armor_hit_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/arrow_armor_hit_3.ogg",
+    "source_sha256": "ee5d6a1e9a0fddddd4e0cd9e4e0d611663afe8b2e8719b8c447f8235f36b0f6d",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 32900,
+    "sha256": "b8c41f5a77913facfbea7b9d959a48226801814ccd265d1995ca936c34b0f130"
+  },
+  {
+    "file": "sounds/arrow_flesh_hit_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/arrow_flesh_hit_1.ogg",
+    "source_sha256": "57acf45b72f0b8b9d061d7c2e5060c0e942c991c625e25c3a8c6f7f953e4cd2f",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 33581,
+    "sha256": "bddba49f79517e799c64a4113a1e4801d76b0bfb67c1f4100ec87812cc954063"
+  },
+  {
+    "file": "sounds/arrow_flesh_hit_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/arrow_flesh_hit_2.ogg",
+    "source_sha256": "5eb7f06fe8ba77e56c458fbbc669709c3feb35a0e5518ef78679167326bf4aae",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 31133,
+    "sha256": "22881d4f2d9d5a7c9759714a69e1d8e7212b3f2ad9f58f38de5433b6d9a552bf"
+  },
+  {
+    "file": "sounds/arrow_flesh_hit_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/arrow_flesh_hit_3.ogg",
+    "source_sha256": "70ff9ecf99a3978d719865b56bbb26d9df6b6519a38706ab419d9be74cc99113",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 31831,
+    "sha256": "d544e5cb65ee729e89a71726b82a7ddbdd02dde3caf9fdd69cc19b365ff94071"
+  },
+  {
+    "file": "sounds/finish_arrow_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_arrow_1.ogg",
+    "source_sha256": "34058b5c9a709069d43581e8e7cb22686ae279e8b7b45e5518dff96de0cd4faf",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 52890,
+    "sha256": "ce3d4580df333c2a37db9ccc924490473362eb937f66c28614adbf30d696218c"
+  },
+  {
+    "file": "sounds/finish_arrow_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_arrow_2.ogg",
+    "source_sha256": "343c66318ca962ba493860a7aa6c1448453982b9791b7d0147fd4a41f39ac701",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 62374,
+    "sha256": "db0c75265a3271508a111961f9505743fd9f710b3375d30f8ecb8ceeba9593dc"
+  },
+  {
+    "file": "sounds/finish_arrow_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_arrow_3.ogg",
+    "source_sha256": "804c3932e5890f16e1b98d2f69ec79e68c5e03bd018b135c325ca557cf63b430",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 74681,
+    "sha256": "af6893c3b51ef58c63426fbbd7829ee46b62ced5fe08f87f84e413873093a367"
+  },
+  {
+    "file": "sounds/finish_arrow_4_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_arrow_4.ogg",
+    "source_sha256": "12ad5516ae817c6c59e76a219415c67e4d89a9c8954a7e1b59574f0f8ede24a3",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 56211,
+    "sha256": "a543b788fede370e4e688c7d851ad7fe19974be722e73f1b2ff94d675ccacdd8"
+  },
+  {
+    "file": "sounds/finish_heavy_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_heavy_1.ogg",
+    "source_sha256": "65c95838d5b117763c9b69e9c8f11a160608ccfb0ff49a887a83ca350f43ed2f",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 72193,
+    "sha256": "926dc9e1677c506a901e27245ae72dcbd9db92c064099997862d0d96a9e3d467"
+  },
+  {
+    "file": "sounds/finish_heavy_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_heavy_2.ogg",
+    "source_sha256": "7c762cb966e4dab380013e2db91f40875b0fa6a11c45eb0f29c3a34fd58f5746",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 67352,
+    "sha256": "259742ff75975b9256739e5615e98c75784aee315e571b200d4610fd60b990ad"
+  },
+  {
+    "file": "sounds/finish_heavy_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_heavy_3.ogg",
+    "source_sha256": "0aee2d3ede3a181eae81dbad59e980c71d7c81e8c1130d2903fbc176f7b5005b",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 55074,
+    "sha256": "4b24832202c3c785918366f06d79de8c5c46968f69419a396f7dae392ac09dd1"
+  },
+  {
+    "file": "sounds/finish_light_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_light_1.ogg",
+    "source_sha256": "8f02bb58cdab6040103cf8799b0b9b12a75639a1f6d8765899bd2f8a2ccb3fa6",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 51485,
+    "sha256": "c60bd62a576b42fc71e591416c30dbc41328cea75b4af25320e80a7a8f44225d"
+  },
+  {
+    "file": "sounds/finish_light_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_light_2.ogg",
+    "source_sha256": "92b7e407ca562f5fe23cd587ffbbe99254517845ad1723e0fd318af722a50a00",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 47068,
+    "sha256": "7fea3f61b4307f5bf0e4875352a4081a37c1b4f92fae656e72cf6f4341e7fd6f"
+  },
+  {
+    "file": "sounds/finish_light_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_light_3.ogg",
+    "source_sha256": "ffeee09f9cdec7946ca04375fb90f6a7298b0c9c75b562f197fa6f7ed7a02f73",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 48902,
+    "sha256": "60a8e33c27ab9f11d28d1f7aad5dfc58bb1ebc6c745f5238d7cb00b9d23b0689"
+  },
+  {
+    "file": "sounds/finish_shotgun_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_shotgun_1.ogg",
+    "source_sha256": "55e67f9565b56a46aed9d13c37fe6f989b916ec160c3144b00e188c78b8b565b",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 58242,
+    "sha256": "2e8f4ca22aca59a25254efd01292fe124abbdc4eca7a690267744cadd1404b4d"
+  },
+  {
+    "file": "sounds/finish_shotgun_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_shotgun_2.ogg",
+    "source_sha256": "20d153475cbba4ba888880791720703092e59b62a6d3ad1bb37476b80dc5da2b",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 56357,
+    "sha256": "b80329487e087b065c8061c22f45d736f7202dbf417fa9928274422f9573acf3"
+  },
+  {
+    "file": "sounds/finish_shotgun_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/finish_shotgun_3.ogg",
+    "source_sha256": "b78870c79ccf97ee741fd637c654fe345a9b2499512e4ac33e5607c3701ca2af",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 49257,
+    "sha256": "1959f83073e426b364c7ea648daeed4483aac6469a399a8c01c8d29e41f425dd"
+  },
+  {
+    "file": "sounds/shield_crack_hit_1_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/shield_crack_hit_1.ogg",
+    "source_sha256": "cb9fef1f6078f4b313613dbaae22c678b0d89eacda2958a46ab962335bcc3355",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 49057,
+    "sha256": "810720b515e549ada4bfddde4fa037cc3306b2a30b835d1fdc9488b3e869666d"
+  },
+  {
+    "file": "sounds/shield_crack_hit_2_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/shield_crack_hit_2.ogg",
+    "source_sha256": "96ab54fe03682bda8912a09cc7baf61311e2f7e7850bd43b08c4bf943868106e",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 42875,
+    "sha256": "386497b0c166a4b4c701b7d8913397819fc72aa4fd6ba98d777ab48b90b5040f"
+  },
+  {
+    "file": "sounds/shield_crack_hit_3_loud.ogg",
+    "derived": true,
+    "audio_boost": true,
+    "source": "sounds/shield_crack_hit_3.ogg",
+    "source_sha256": "6be9b0b9fee3e324a37091fa576962cf8e93817a13b539788e961a8ed34e70e1",
+    "operation": "2x amplitude (+6.02 dB), soft limiter above 0.8, high-quality Vorbis with decoded peak <= 1.0, original sample rate and stereo retained",
+    "bytes": 40532,
+    "sha256": "bda8e1e01ea874f0743170a90d20e634bed2287e427d983e03ee94235ec53e70"
+  },
+  {
+    "file": "textures/gui/shield.png",
+    "derived": true,
+    "source": "https://github.com/zxy19/battery_shield",
+    "operation": "64x64 armor icon selected for the release",
+    "bytes": 289,
+    "sha256": "1c0fdc85f499ed301ca26d4fa46de9631c4c797bd938dfbe0f9d88da08215b83"
+  },
+  {
+    "file": "textures/gui/shield_broken.png",
+    "derived": true,
+    "source": "textures/gui/shield.png",
+    "operation": "64x64 split armor icon selected for the release",
+    "bytes": 369,
+    "sha256": "fd08d9e3d445e32264a759e26f772faa5b8383ba5700242a5ce6f79ee4d9a88b"
+  },
+  {
+    "file": "textures/particle/shield_shard.png",
+    "derived": true,
+    "source": "Procedural generation",
+    "operation": "Translucent hexagon particle",
+    "bytes": 402,
+    "sha256": "b9311b3c9aab5a080d5166b07b7d5433d814b2595a1178c114e04b39ef842914"
+  },
+  {
+    "file": "icon.png",
+    "url": "https://media.forgecdn.net/avatars/thumbnails/2126/25/64/64/639278359365835426.png",
+    "source": "Existing published ApexSound CurseForge logo; original rights unconfirmed",
+    "bytes": 13047,
+    "sha256": "f60223f9fec2b020171026aac5fef7b20484d6c00d66a53e64ec8d64c54592c7"
+  }
+]

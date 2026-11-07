@@ -1,0 +1,168 @@
+{
+  "armor_hit": {
+    "subtitle": "subtitles.apex_sound_effects.armor_hit",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:armor_hit_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:armor_hit_2_loud",
+        "preload": true
+      }
+    ]
+  },
+  "shield_break": {
+    "subtitle": "subtitles.apex_sound_effects.shield_break",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:shield_break_1",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:shield_break_2",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:shield_break_3",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:shield_break_4",
+        "preload": true
+      }
+    ]
+  },
+  "flesh_hit": {
+    "subtitle": "subtitles.apex_sound_effects.flesh_hit",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:flesh_hit",
+        "preload": true
+      }
+    ]
+  },
+  "shield_crack_hit": {
+    "subtitle": "subtitles.apex_sound_effects.shield_break",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:shield_crack_hit_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:shield_crack_hit_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:shield_crack_hit_3_loud",
+        "preload": true
+      }
+    ]
+  },
+  "arrow_armor_hit": {
+    "subtitle": "subtitles.apex_sound_effects.armor_hit",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:arrow_armor_hit_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:arrow_armor_hit_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:arrow_armor_hit_3_loud",
+        "preload": true
+      }
+    ]
+  },
+  "arrow_flesh_hit": {
+    "subtitle": "subtitles.apex_sound_effects.flesh_hit",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:arrow_flesh_hit_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:arrow_flesh_hit_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:arrow_flesh_hit_3_loud",
+        "preload": true
+      }
+    ]
+  },
+  "finish_light": {
+    "subtitle": "subtitles.apex_sound_effects.finish",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:finish_light_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_light_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_light_3_loud",
+        "preload": true
+      }
+    ]
+  },
+  "finish_heavy": {
+    "subtitle": "subtitles.apex_sound_effects.finish",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:finish_heavy_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_heavy_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_heavy_3_loud",
+        "preload": true
+      }
+    ]
+  },
+  "finish_shotgun": {
+    "subtitle": "subtitles.apex_sound_effects.finish",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:finish_shotgun_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_shotgun_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_shotgun_3_loud",
+        "preload": true
+      }
+    ]
+  },
+  "finish_arrow": {
+    "subtitle": "subtitles.apex_sound_effects.finish",
+    "sounds": [
+      {
+        "name": "apex_sound_effects:finish_arrow_1_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_arrow_2_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_arrow_3_loud",
+        "preload": true
+      },
+      {
+        "name": "apex_sound_effects:finish_arrow_4_loud",
+        "preload": true
+      }
+    ]
+  }
+}
