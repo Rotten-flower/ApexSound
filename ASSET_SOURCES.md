@@ -16,8 +16,8 @@
 
 位置与累计显示参考 https://www.bilibili.com/video/BV1XnmHBNE3B/ 、https://www.gamepressure.com/apex-legends/damage-system/zebdec 、https://knowl.jp/game/apex-legends-damage-numbers 。这些参考画面不打包；投影、跟随与停留时间为 Minecraft 适配。
 
-Forge 开发依赖：Minecraft 1.20.1、Forge 47.4.10；可选 TaCZ 1.1.8-hotfix，项目 https://github.com/MCModderAnchor/TACZ ，许可证按其原 JAR 元数据记录为 GPL3 / CC BY-NC-ND 4.0。TaCZ 不嵌入本模组 JAR。spark / Modrinth 版本 4FXHDE9F 仅用于开发验证，不是玩家前置。各端依赖和验证状态见 VALIDATION.md。
+Forge 开发依赖：Minecraft 1.20.1、Forge 47.4.10；可选 TaCZ 1.1.8-hotfix，项目 https://github.com/MCModderAnchor/TACZ ，许可证按其原 JAR 元数据记录为 GPL3 / CC BY-NC-ND 4.0。TaCZ 不嵌入本模组 JAR，各端编译依赖见 BUILDING.md。
 
-第三方项目的许可证与视频用途说明不能代替 EA 原始素材的再分发授权；本记录如实保留目前可核实的范围。
+部分音效和图片素材取自原作游戏《Apex Legends》，相关权利归原权利人所有。
 
-模组列表图标：沿用 ApexSound 现有 CurseForge 发布页的 64×64 项目图标，原字节与来源见清单。原始美术权利尚未确认，公开源码候选暂不含此图；不纳入代码 MIT。
+模组列表图标：沿用 ApexSound 现有 CurseForge 发布页的 64×64 项目图标，文件信息见清单。此图不在源码仓库中，不纳入代码 MIT。

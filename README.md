@@ -43,7 +43,7 @@ Armor thresholds and ammo sound groups can also be configured. Restart the serve
 
 Author: **Rotten-flower**. Project-owned code and documentation use the [MIT License](LICENSE). Third-party sounds, images and fonts have separate terms; see [credits and sources](CREDITS.md), [LICENSE-ASSETS.md](LICENSE-ASSETS.md) and [THIRD_PARTY.md](THIRD_PARTY.md).
 
-The repository omits audio and images with unconfirmed redistribution rights. Builds from this source alone lack those assets; see [build instructions](BUILDING.md). Player downloads are on CurseForge.
+Some sounds and images are from the original game Apex Legends. See [build instructions](BUILDING.md) for building from source. Player downloads are on CurseForge.
 
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/apexsound) · [Build instructions](BUILDING.md) · [Contributing](CONTRIBUTING.md)
 
@@ -96,7 +96,7 @@ Fabric：
 
 作者：**Rotten-flower**。项目自有代码和文档采用 [MIT](LICENSE)。第三方声音、图片和字体按各自条款处理，见 [素材署名与来源](CREDITS.md)、[素材许可](LICENSE-ASSETS.md) 与 [第三方说明](THIRD_PARTY.md)。
 
-仓库不包含再分发授权未确认的声音和图片，单独构建会缺少这些素材，详见 [构建说明](BUILDING.md)。玩家安装包在 CurseForge 下载。
+部分音效和图片素材取自原作游戏《Apex Legends》。源码构建见[构建说明](BUILDING.md)，玩家安装包在 CurseForge 下载。
 
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/apexsound) · [构建说明](BUILDING.md) · [贡献说明](CONTRIBUTING.md)
 
